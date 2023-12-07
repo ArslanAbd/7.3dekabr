@@ -35,13 +35,7 @@
     HorizontalAligment="Left" 
     VerticalAligment="Center"
     Margin="10"/>
-
-<TextBlock Text="число в"   
-    Grid.Row="2" 
-    Grid.Column="0" 
-    HorizontalAligment="Left" 
-    VerticalAligment="Center"
-    Margin="10"/>    
+  
         
 <TextBlock x:Name="TextBlockAnswer" 
     Grid.Row="3" 
@@ -58,12 +52,7 @@
     Padding="10 0"
     BorderThickness="1"/>
 
-<TextBlock x:Name="TbNumberB" 
-    Grid.Row="2" 
-    Grid.Column="0" 
-    VerticalContentAlignment="Center"
-    Padding="10 0"
-    BorderThickness="1"/>
+
 <StackPanel Grid.Row="4"      
          Grid.Column="0"
          Grod.ColumnSpan="2" 
