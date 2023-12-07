@@ -26,11 +26,30 @@ namespace Abdrahmanov_n1
         }
 
         private void BtnOK_Click(object sender, RountedEventArgs e)
-{ 
-        Console.Write("Сторона квадрата: ");
-        int a = int.Parse(Console.ReadLine());
-        int p = 4 * a;
-        Console.Write("Периметр: " + p);
-        Console.ReadKey(true); 
-        
- }
+{
+            int D = int.Parse(TbNumberA.Text);
+            int M = int.Parse(TbNumberB.Text);
+            string H = "";
+            switch (D)
+            {
+                case 6: H = "шестерка"; break;
+                case 7: H = "семерка"; break;
+                case 8: H = "восьмерка"; break;
+                case 9: H = "девятка"; break;
+                case 10: H = "десятка"; break;
+                case 11: H = "валет"; break;
+                case 12: H = "дама"; break;
+                case 13: H = "король"; break;
+                case 14: H = "туз"; break;
+            }
+            switch (M)
+            {
+                case 1: H += "пик"; break;
+                case 2: H += "трефы"; break;
+                case 3: H += "бубны"; break;
+                case 4: H += "червы"; break;
+            }
+            TextBlockAnswer.Text = $"Ответ: {H}";
+        }
+    }
+}
