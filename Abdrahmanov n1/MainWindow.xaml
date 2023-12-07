@@ -19,7 +19,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="30"/>
             </Grid.RowDefinitions>
-            <TextBlock Text="задание 2"
+            <TextBlock Text="задание 6"
                        Grid.Row="0"
                        Grid.Column="0"
                        Grid.ColumnSpan="2"
