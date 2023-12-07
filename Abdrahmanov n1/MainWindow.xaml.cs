@@ -27,10 +27,19 @@ namespace Abdrahmanov_n1
 
         private void BtnOK_Click(object sender, RountedEventArgs e)
 { 
-        Console.Write("Сторона квадрата: ");
-        int a = int.Parse(Console.ReadLine());
-        int p = 4 * a;
-        Console.Write("Периметр: " + p);
-        Console.ReadKey(true); 
-        
+       int n = int.Parse(TbNumberA.Text);
+                int b;
+                while (n > 0)
+                {
+                    b = n % 10;
+                    n /= 10;
+                    MessageBox.Show($" b ={b}", "ответ");
+         }
+            }
+
+        }
+
+    }
+
+}
  }
